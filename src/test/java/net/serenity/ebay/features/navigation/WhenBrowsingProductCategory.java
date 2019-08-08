@@ -28,5 +28,9 @@ public class WhenBrowsingProductCategory {
 
         //Then
         mark.shouldSeePageTitleContaining("eBay Motors: Auto Parts and Vehicles | eBay");
+
+        //And
+
+        mark.canFilterMotorCategory("2015", "BMW", "130i", "Base Hatchback 2-Door", "3.0L 2996CC l6 GAS DOHC Naturally Aspirated");
     }
 }
