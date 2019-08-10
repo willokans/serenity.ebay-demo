@@ -6,7 +6,7 @@ public class MotorFilter extends PageObject {
 
     public void filterMotorCategory(String filterKey, String fileName) {
         System.out.println("xpant is: "+ "select[name='"+filterKey+"']");
-        $("select[name='"+filterKey+"']").click();
-        $("option[value='"+fileName+"']").click();
+//        $("select[name='"+filterKey+"']").click();
+//        $("option[value='"+fileName+"']").click();
     }
 }
